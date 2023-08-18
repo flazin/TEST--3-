@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap);
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+.header {
+  background-color: black;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-logo {
+  font-size: 45px;
+  font-family: "Great Vibes", "handwriting";
+  font-weight: bold;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-link:hover {
+  color: black;
+  background-color: #fff;
+}
+
+.nav-link {
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+/* Hero */
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/Home-Page-Inventory.png");
+  height: 90.3vh;
+  background-size: cover;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.hero-wrapper {
+  width: 100%;
+  color: #fff;
+  width: 750px;
+}
+
+.hero-title {
+  font-size: 60px;
+  margin-bottom: 40px;
+  font-family: "Great Vibes", "handwriting";
+  font-weight: bold;
+  /* margin-top: 200px; */
+}
+
+.car-item {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+.car-item h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.car-item a {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.BMW {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/BMW.jpg");
+}
+
+.BUGATTI {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/BUGATTI.jpg");
+}
+
+.TESLA {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/TESL.jpg");
+}
+.TOYOTA {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("..//images/TOYOTA.jpg");
+}
+.LAMBA {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/LAMBA.jpg");
+}
+.PORSHE {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/campbell-3ZUsNJhi_Ik-unsplash.jpg");
+}
